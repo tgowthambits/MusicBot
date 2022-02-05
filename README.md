@@ -7,7 +7,7 @@
 
 MusicBot is the original Discord music bot written for [Python](https://www.python.org "Python homepage") 3.8+, using the [pycord](https://github.com/Pycord-Development/pycord) library. It plays requested songs from YouTube and other services into a Discord server (or multiple servers). Besides, if the queue becomes empty MusicBot will play through a list of existing songs with configuration. The bot features a permission system allowing owners to restrict commands to certain people. As well as playing songs, MusicBot is capable of streaming live media into a voice channel (experimental).
 
-![Main](https://i.imgur.com/FWcHtcS.png)
+<!-- ![Main](https://i.imgur.com/FWcHtcS.png) -->
 
 ## Setup
 Setting up the MusicBot is relatively painless - just follow one of the [guides](https://just-some-bots.github.io/MusicBot/). After that, configure the bot to ensure its connection to Discord.
@@ -17,6 +17,19 @@ The main configuration file is `config/options.ini`, but it is not included by d
 ### Commands
 
 There are many commands that can be used with the bot. Most notably, the `play <url>` command (preceded by your command prefix) will download, process, and play a song from YouTube or a similar site. A full list of commands is available [here](https://just-some-bots.github.io/MusicBot/using/commands/ "Commands").
+
+
+### Guide
+
+MusicBot can be installed on Windows 7 through 11, though it requires installing some programs on your computer first.
+
+Install Python 3.7.
+During the setup, tick Install launcher for all users (recommended) and Add Python 3.7 to PATH when prompted.
+Install Git for Windows.
+During the setup, tick Git from the command line and also 3rd-party software, Checkout Windows-style, commit Unix-style endings, and Use MinTTY (the default terminal MSYS2).
+Open Git Bash by right-clicking an empty space inside of a folder (e.g My Documents) and clicking Git Bash here.
+Run git clone https://github.com/Just-Some-Bots/MusicBot.git MusicBot -b master in the command window that opens.
+After doing that, a folder called MusicBot will appear in the folder you opened Git Bash in. Configure your bot, then run update.bat to update your dependencies, then run.bat to start the MusicBot.
 
 ### Further reading
 
